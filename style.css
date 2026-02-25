@@ -897,7 +897,7 @@ h3 {
 }
 
 .is-z-koniem {
-    background-image: url("img/Sesja%20zdjęciowa%20z%20koniem5.jpg");
+    background-image: url("img/sesja%20zdjęciowa%20z%20koniem5.jpg");
 }
 
 .is-ciazowa {
@@ -1312,11 +1312,11 @@ nav .dropdown-menu .nav-link {
 }
 
 .bg-Group {
-    background-image: url("img/Group.svg");
+    background-image: url("img/group.svg");
 }
 
 .bg-Love-20Story13 {
-    background-image: url("img/Love%20Story13.jpg");
+    background-image: url("img/love%20story13.jpg");
 }
 
 @media (min-width: 576px) {
