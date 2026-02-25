@@ -889,27 +889,27 @@ h3 {
     width: 80px;
     height: 80px;
     margin-right: 2rem;
-    background-image: url("img/chlopak%20caluje%20dziewczyne.jpg");
+    background-image: url("img/chlopak%20caluje%20dziewczyne.avif");
 }
 
 .is-rodzinna {
-    background-image: url("img/rodzianna-21.jpg");
+    background-image: url("img/rodzianna-21.avif");
 }
 
 .is-z-koniem {
-    background-image: url("img/sesja%20zdjęciowa%20z%20koniem5.jpg");
+    background-image: url("img/sesja%20zdjęciowa%20z%20koniem5.avif");
 }
 
 .is-ciazowa {
-    background-image: url("img/ciazowy%20brzuszek.jpg");
+    background-image: url("img/ciazowy%20brzuszek.avif");
 }
 
 .is-okolicznosciowa {
-    background-image: url("img/chrzciny%20w%20kosciele.jpg");
+    background-image: url("img/chrzciny%20w%20kosciele.avif");
 }
 
 .is-noworodkowa {
-    background-image: url("img/mama%20i%20corka.jpg");
+    background-image: url("img/mama%20i%20corka.avif");
 }
 
 .img_link-wrapper:hover {
@@ -964,7 +964,7 @@ h3 {
 
 .rev_avatar {
     border-radius: 100em 100em 100em 100em;
-    background-image: url("img/chlopak%20caluje%20dziewczyne.jpg");
+    background-image: url("img/chlopak%20caluje%20dziewczyne.avif");
     background-size: 200px 200px;
     background-position: center center;
 }
@@ -1308,7 +1308,7 @@ nav .dropdown-menu .nav-link {
 }
 
 .bg-para-20biegnie {
-    background-image: url("img/para%20biegnie.jpg");
+    background-image: url("img/para%20biegnie.avif");
 }
 
 .bg-Group {
@@ -1316,7 +1316,7 @@ nav .dropdown-menu .nav-link {
 }
 
 .bg-Love-20Story13 {
-    background-image: url("img/love%20story13.jpg");
+    background-image: url("img/love%20story13.avif");
 }
 
 @media (min-width: 576px) {
