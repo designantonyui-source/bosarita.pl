@@ -1,10 +1,10 @@
-/*-----------------------------------------------------------------------------------
+/*-----------
 	Bosarita Poznań - Profesjonalna Fotografia
 	About: A shiny new Blocs website.
 	Author: Antony
 	Version: 1.0
 	Built with Blocs
------------------------------------------------------------------------------------*/
+-----------*/
 
 
 body {
@@ -53,7 +53,7 @@ nav .dropdown-menu .nav-link {
 }
 
 [data-bs-theme="dark"] nav .dropdown-menu .nav-link {
-    color: var(--bs-dropdown-link-color) !important;
+    color: var(-bs-dropdown-link-color) !important;
 }
 
 @font-face {
@@ -800,7 +800,7 @@ a {
 
 h2 {
     font-size: 4rem;
-    color: var(--swatch-var-3546) !important;
+    color: var(-swatch-var-3546) !important;
 }
 
 p {
@@ -818,11 +818,11 @@ h6 {
     border-width: 1px 1px 1px 1px;
     padding: 2rem 2rem 2rem 2rem;
     border-radius: 50% 50% 50% 50%;
-    background-color: var(--swatch-var-94);
+    background-color: var(-swatch-var-94);
 }
 
 .footer-bg {
-    background-color: var(--swatch-var-6416);
+    background-color: var(-swatch-var-6416);
 }
 
 .copyright-title {
@@ -832,11 +832,11 @@ h6 {
 }
 
 .btn {
-    background-color: var(--swatch-var-317);
+    background-color: var(-swatch-var-317);
 }
 
 .footer-icon:hover {
-    background-color: var(--swatch-var-5962);
+    background-color: var(-swatch-var-5962);
 }
 
 .footer-link {
@@ -844,7 +844,7 @@ h6 {
     text-align: center;
     text-decoration: none;
     margin-bottom: 2rem;
-    color: var(--swatch-var-2260) !important;
+    color: var(-swatch-var-2260) !important;
 }
 
 h1 {
@@ -857,12 +857,12 @@ h3 {
 }
 
 .footer-link:hover {
-    color: var(--swatch-var-5962) !important;
+    color: var(-swatch-var-5962) !important;
 }
 
 .h4-style {
     font-size: 3em;
-    color: var(--swatch-var-6743) !important;
+    color: var(-swatch-var-6743) !important;
     text-decoration: none;
 }
 
@@ -889,27 +889,27 @@ h3 {
     width: 80px;
     height: 80px;
     margin-right: 2rem;
-    background-image: url("img/chlopak%20caluje%20dziewczyne.avif");
+    background-image: url("img/para-pocalunek-sesja-love-story.avif");
 }
 
 .is-rodzinna {
-    background-image: url("img/rodzianna-21.avif");
+    background-image: url("img/dzieci-jedzace-jablka-sesja-plenerowa.avif");
 }
 
 .is-z-koniem {
-    background-image: url("img/sesja%20zdjęciowa%20z%20koniem5.avif");
+    background-image: url("img/sesja-z-koniem-5.avif");
 }
 
 .is-ciazowa {
-    background-image: url("img/ciazowy%20brzuszek.avif");
+    background-image: url("img/detal-brzuszka-ciazowego-serce-z-dloni.avif");
 }
 
 .is-okolicznosciowa {
-    background-image: url("img/chrzciny%20w%20kosciele.avif");
+    background-image: url("img/ceremonia-chrztu-swietego-poznan.avif");
 }
 
 .is-noworodkowa {
-    background-image: url("img/mama%20i%20corka.avif");
+    background-image: url("img/sesja-rodzinna-mama-i-corka.avif");
 }
 
 .img_link-wrapper:hover {
@@ -917,18 +917,19 @@ h3 {
 }
 
 .close-special-menu .close-icon {
-    color: var(--swatch-var-1518) !important;
-    background-color: var(--swatch-var-1518);
+    color: var(-swatch-var-1518) !important;
+    background-color: var(-swatch-var-1518);
 }
 
 .navbar-nav li a {
-    font-size: 1rem;
-    color: var(--swatch-var-6743) !important;
+    font-size: 1.1rem;
+    font-family: 'InstrumentSerif-Regular';
+    color: var(-swatch-var-6743) !important;
 }
 
 .ssee_more-desc {
     text-decoration: none;
-    color: var(--swatch-var-3486) !important;
+    color: var(-swatch-var-3486) !important;
     font-size: 1.2rem;
     text-align: left;
     line-height: 1em;
@@ -948,43 +949,43 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--swatch-var-3379);
+    background-color: var(-swatch-var-3379);
 }
 
 .about_bg {
-    background-color: var(--swatch-var-3379);
+    background-color: var(-swatch-var-3379);
 }
 
 .rev_desc {
     font-size: 1.2rem;
     text-align: left;
-    color: var(--swatch-var-2792) !important;
+    color: var(-swatch-var-2792) !important;
     font-style: italic;
 }
 
 .rev_avatar {
     border-radius: 100em 100em 100em 100em;
-    background-image: url("img/chlopak%20caluje%20dziewczyne.avif");
+    background-image: url("img/para-pocalunek-sesja-love-story.avif");
     background-size: 200px 200px;
     background-position: center center;
 }
 
 .rev_bg {
-    background-color: var(--swatch-var-3655);
+    background-color: var(-swatch-var-3655);
 }
 
 .btn-hero {
     font-size: 1.2rem;
     padding-left: 5rem;
     padding-right: 5rem;
-    color: var(--swatch-var-5587) !important;
+    color: var(-swatch-var-5587) !important;
     text-transform: none;
     font-weight: 900;
-    background-color: var(--swatch-var-3486);
+    background-color: var(-swatch-var-3486);
 }
 
 .btn-hero:hover {
-    background-color: var(--swatch-var-1345);
+    background-color: var(-swatch-var-1345);
 }
 
 .navbar-nav li a:active {
@@ -1010,7 +1011,7 @@ h3 {
 }
 
 .is-color {
-    color: var(--swatch-var-1345) !important;
+    color: var(-swatch-var-1345) !important;
 }
 
 .link {
@@ -1018,7 +1019,7 @@ h3 {
 }
 
 .card-price {
-    background-color: var(--swatch-var-752);
+    background-color: var(-swatch-var-752);
     padding: 3rem 2rem 3rem 2rem;
 }
 
@@ -1035,7 +1036,7 @@ h3 {
 
 .card-price_item {
     font-size: 1.3rem;
-    color: var(--swatch-var-3486) !important;
+    color: var(-swatch-var-3486) !important;
 }
 
 .see_more-wrapper {
@@ -1062,31 +1063,31 @@ a {
 }
 
 .faq-subtitle {
-    color: var(--swatch-var-6743) !important;
+    color: var(-swatch-var-6743) !important;
     text-transform: none;
     font-size: 2rem;
 }
 
 .faq-title {
-    color: var(--swatch-var-6743) !important;
+    color: var(-swatch-var-6743) !important;
 }
 
 .h3-style {
     font-family: "InstrumentSerif-Italic";
     font-size: 4rem;
-    color: var(--swatch-var-3486) !important;
+    color: var(-swatch-var-3486) !important;
 }
 
 .h1-style {
     font-family: "InstrumentSerif-Italic";
     font-size: 7rem;
-    color: var(--swatch-var-6743) !important;
+    color: var(-swatch-var-6743) !important;
     text-decoration: none;
 }
 
 .h3-mini-style {
     font-size: 3em;
-    color: var(--swatch-var-94) !important;
+    color: var(-swatch-var-94) !important;
 }
 
 .grid-18410-style {
@@ -1094,14 +1095,14 @@ a {
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 4rem;
     padding: 3rem 3rem 3rem 3rem;
-    background-color: var(--swatch-var-3655);
+    background-color: var(-swatch-var-3655);
 }
 
 .h2-style {
     font-family: "InstrumentSerif-Italic";
     text-transform: none;
     font-size: 3rem;
-    color: var(--swatch-var-6743) !important;
+    color: var(-swatch-var-6743) !important;
 }
 
 .h1-bosarita -style {
@@ -1113,26 +1114,26 @@ a {
 }
 
 nav .dropdown-menu .nav-link {
-    background-color: var(--swatch-var-5587);
+    background-color: var(-swatch-var-5587);
     border-radius: 0px 0px 0px 0px;
-    color: var(--swatch-var-6743) !important;
+    color: var(-swatch-var-6743) !important;
     padding: 1rem 1rem 1rem 1rem;
     width: 100%;
 }
 
 .blocsapp-special-menu blocsnav li a {
-    color: var(--swatch-var-3528) !important;
+    color: var(-swatch-var-3528) !important;
 }
 
 .menu-icon-stroke {
-    stroke: var(--swatch-var-6743) !important;
-    fill: var(--swatch-var-6743) !important;
+    stroke: var(-swatch-var-6743) !important;
+    fill: var(-swatch-var-6743) !important;
 }
 
 .dropdown-menu {
     padding: 2rem 2rem 2rem 2rem;
     border-radius: 0px 0px 0px 0px;
-    background-color: var(--swatch-var-5587);
+    background-color: var(-swatch-var-5587);
 }
 
 .menu-wrapper {
@@ -1146,7 +1147,7 @@ nav .dropdown-menu .nav-link {
 }
 
 .logo-link {
-    color: var(--swatch-var-3486) !important;
+    color: var(-swatch-var-3486) !important;
     text-decoration: none;
     font-size: 2.5rem;
     font-family: 'InstrumentSerif-Regular';
@@ -1168,13 +1169,13 @@ nav .dropdown-menu .nav-link {
     font-family: 'InstrumentSerif-Italic';
     font-size: 3rem;
     text-decoration: none;
-    color: var(--swatch-var-3486) !important;
+    color: var(-swatch-var-3486) !important;
 }
 
 .menu-bg {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: var(--swatch-var-5587);
+    background-color: var(-swatch-var-5587);
 }
 
 .text-24 {
@@ -1192,13 +1193,13 @@ nav .dropdown-menu .nav-link {
     width: 500px;
 }
 
-.img_vaucher {
+.img_voucher-na-sesje-fotograficzna-prezent {
     width: 400px;
 }
 
 .h5-style {
     font-size: 3rem;
-    color: var(--swatch-var-6743) !important;
+    color: var(-swatch-var-6743) !important;
     font-style: italic;
 }
 
@@ -1233,7 +1234,7 @@ nav .dropdown-menu .nav-link {
 }
 
 .grid-bloc-21-style {
-    background-color: var(--swatch-var-5792);
+    background-color: var(-swatch-var-5792);
     background-repeat: no-repeat;
     background-size: auto auto;
     background-position: center center;
@@ -1241,74 +1242,74 @@ nav .dropdown-menu .nav-link {
 }
 
 .section-about {
-    background-color: var(--swatch-var-6508);
+    background-color: var(-swatch-var-6508);
 }
 
 .card-price-text {
     font-size: 1.5rem;
-    color: var(--swatch-var-6743) !important;
+    color: var(-swatch-var-6743) !important;
     font-style: italic;
 }
 
 .divider-background-color {
-    background-color: var(--swatch-var-7731);
+    background-color: var(-swatch-var-7731);
 }
 
 :root {
-    --swatch-var-4521: rgba(204, 204, 204, 1.00);
-    --swatch-var-3546: rgba(0, 0, 0, 1.00);
-    --swatch-var-1016: rgba(120, 80, 40, 1.00);
-    --swatch-var-317: rgba(171, 163, 132, 1.00);
-    --swatch-var-1265: rgba(255, 183, 0, 0.30);
-    --swatch-var-1008: rgba(51, 51, 51, 1.00);
-    --swatch-var-6416: rgba(18, 12, 0, 0.37);
-    --swatch-var-5962: rgba(204, 204, 204, 1.00);
-    --swatch-var-3239: rgba(37, 37, 1, 1.00);
-    --swatch-var-490: rgba(153, 153, 153, 1.00);
-    --swatch-var-752: rgba(29, 26, 23, 1.00);
-    --swatch-var-3543: rgba(12, 7, 3, 1.00);
-    --swatch-var-3438: rgba(46, 44, 13, 1.00);
-    --swatch-var-2792: rgba(138, 125, 111, 1.00);
-    --swatch-var-5150: rgba(0, 0, 0, 0.43);
-    --swatch-var-1518: rgba(255, 255, 255, 1.00);
-    --swatch-var-6508: rgba(0, 0, 0, 0.05);
-    --swatch-var-6443: rgba(102, 102, 102, 1.00);
-    --swatch-var-1345: rgba(204, 204, 204, 1.00);
-    --swatch-var-3655: rgba(28, 25, 23, 1.00);
-    --swatch-var-5312: rgba(102, 54, 36, 1.00);
-    --swatch-var-4035: rgba(255, 255, 255, 0.50);
-    --swatch-var-6189: rgba(29, 26, 23, 0.73);
-    --swatch-var-3528: rgba(255, 204, 51, 1.00);
-    --swatch-var-5702: rgba(138, 125, 111, 0.81);
-    --swatch-var-5587: rgba(29, 26, 23, 1.00);
-    --swatch-var-2260: rgba(138, 125, 111, 1.00);
-    --swatch-var-4593: rgba(255, 255, 255, 0.50);
-    --swatch-var-6201: rgba(255, 255, 255, 1.00);
-    --swatch-var-6743: rgba(222, 193, 164, 1.00);
-    --swatch-var-7685: #A3A2A2;
-    --swatch-var-3379: rgba(109, 81, 49, 1.00);
-    --swatch-var-6159: rgba(109, 81, 49, 1.00);
-    --swatch-var-3486: rgba(222, 193, 164, 1.00);
-    --swatch-var-5792: rgba(78, 47, 16, 1.00);
-    --swatch-var-7731: rgba(85, 62, 46, 1.00);
-    --swatch-var-94: rgba(98, 72, 49, 1.00);
-    --swatch-var-5979: rgba(138, 125, 111, 0.19);
+    -swatch-var-4521: rgba(204, 204, 204, 1.00);
+    -swatch-var-3546: rgba(0, 0, 0, 1.00);
+    -swatch-var-1016: rgba(120, 80, 40, 1.00);
+    -swatch-var-317: rgba(171, 163, 132, 1.00);
+    -swatch-var-1265: rgba(255, 183, 0, 0.30);
+    -swatch-var-1008: rgba(51, 51, 51, 1.00);
+    -swatch-var-6416: rgba(18, 12, 0, 0.37);
+    -swatch-var-5962: rgba(204, 204, 204, 1.00);
+    -swatch-var-3239: rgba(37, 37, 1, 1.00);
+    -swatch-var-490: rgba(153, 153, 153, 1.00);
+    -swatch-var-752: rgba(29, 26, 23, 1.00);
+    -swatch-var-3543: rgba(12, 7, 3, 1.00);
+    -swatch-var-3438: rgba(46, 44, 13, 1.00);
+    -swatch-var-2792: rgba(138, 125, 111, 1.00);
+    -swatch-var-5150: rgba(0, 0, 0, 0.43);
+    -swatch-var-1518: rgba(255, 255, 255, 1.00);
+    -swatch-var-6508: rgba(0, 0, 0, 0.05);
+    -swatch-var-6443: rgba(102, 102, 102, 1.00);
+    -swatch-var-1345: rgba(204, 204, 204, 1.00);
+    -swatch-var-3655: rgba(28, 25, 23, 1.00);
+    -swatch-var-5312: rgba(102, 54, 36, 1.00);
+    -swatch-var-4035: rgba(255, 255, 255, 0.50);
+    -swatch-var-6189: rgba(29, 26, 23, 0.73);
+    -swatch-var-3528: rgba(255, 204, 51, 1.00);
+    -swatch-var-5702: rgba(138, 125, 111, 0.81);
+    -swatch-var-5587: rgba(29, 26, 23, 1.00);
+    -swatch-var-2260: rgba(138, 125, 111, 1.00);
+    -swatch-var-4593: rgba(255, 255, 255, 0.50);
+    -swatch-var-6201: rgba(255, 255, 255, 1.00);
+    -swatch-var-6743: rgba(222, 193, 164, 1.00);
+    -swatch-var-7685: #A3A2A2;
+    -swatch-var-3379: rgba(109, 81, 49, 1.00);
+    -swatch-var-6159: rgba(109, 81, 49, 1.00);
+    -swatch-var-3486: rgba(222, 193, 164, 1.00);
+    -swatch-var-5792: rgba(78, 47, 16, 1.00);
+    -swatch-var-7731: rgba(85, 62, 46, 1.00);
+    -swatch-var-94: rgba(98, 72, 49, 1.00);
+    -swatch-var-5979: rgba(138, 125, 111, 0.19);
 }
 
 .bgc-752 {
-    background-color: var(--swatch-var-752);
+    background-color: var(-swatch-var-752);
 }
 
 .bgc-5587 {
-    background-color: var(--swatch-var-5587);
+    background-color: var(-swatch-var-5587);
 }
 
 .tc-3486 {
-    color: var(--swatch-var-3486) !important;
+    color: var(-swatch-var-3486) !important;
 }
 
 .bg-para-20biegnie {
-    background-image: url("img/para%20biegnie.avif");
+    background-image: url("img/para-biegnie-po-lace-sesja-rodzinna.avif");
 }
 
 .bg-Group {
@@ -1316,7 +1317,7 @@ nav .dropdown-menu .nav-link {
 }
 
 .bg-Love-20Story13 {
-    background-image: url("img/love%20story13.avif");
+    background-image: url("img/sesja-love-story-13.avif");
 }
 
 @media (min-width: 576px) {
@@ -1587,10 +1588,10 @@ nav .dropdown-menu .nav-link {
     }
 
     .navbar-nav li a {
-        font-size: 1rem;
-        font-family: "Lora", serif;
+        font-size: 1.1rem;
+        font-family: 'InstrumentSerif-Regular';
         font-weight: 500;
-        color: var(--swatch-var-6743) !important;
+        color: var(-swatch-var-6743) !important;
     }
 
     .navbar-nav li a:hover {
@@ -1619,7 +1620,7 @@ nav .dropdown-menu .nav-link {
         margin-top: 2rem;
         font-size: 1rem;
         padding: 1rem 4rem 1rem 4rem;
-        color: var(--swatch-var-7731) !important;
+        color: var(-swatch-var-7731) !important;
     }
 
     .grid-0-style {
@@ -1650,7 +1651,7 @@ nav .dropdown-menu .nav-link {
     }
 
     .faq-subtitle {
-        color: var(--swatch-var-6743) !important;
+        color: var(-swatch-var-6743) !important;
         font-size: 1.5rem;
     }
 
@@ -1685,7 +1686,7 @@ nav .dropdown-menu .nav-link {
     }
 
     .blocsapp-special-menu blocsnav li a {
-        color: var(--swatch-var-6743) !important;
+        color: var(-swatch-var-6743) !important;
         font-size: 0.5rem;
     }
 
@@ -1701,7 +1702,7 @@ nav .dropdown-menu .nav-link {
 
     .h5-style {
         font-size: 1.8rem;
-        color: var(--swatch-var-6743) !important;
+        color: var(-swatch-var-6743) !important;
     }
 
     .text-96 {
@@ -1726,7 +1727,7 @@ nav .dropdown-menu .nav-link {
     }
 
     .blocsapp-special-menu blocsnav {
-        background-color: var(--swatch-var-5979);
+        background-color: var(-swatch-var-5979);
         backdrop-filter: blur(23px);
         -webkit-backdrop-filter: blur(23px);
         background-blend-mode: luminosity;
@@ -1753,7 +1754,7 @@ nav .dropdown-menu .nav-link {
     }
 
     .nav-special.fullscreen-nav .dropdown.btn-dropdown>a {
-        color: var(--swatch-var-6743) !important;
+        color: var(-swatch-var-6743) !important;
         font-family: 'InstrumentSerif-Regular', serif;
         font-size: 2rem !important;
         pointer-events: none;
